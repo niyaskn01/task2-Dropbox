@@ -1,0 +1,70 @@
+/*.mid-body{
+    background-color: #eee9e28d;
+}*/
+.mid-body{
+    display: flex;
+    justify-content: center;
+    padding-top: 35px;
+    background-color: #eee9e268;
+}
+.h1{
+    letter-spacing: 2px;
+    font-family: Poppins;
+    font-size: 37px;
+    font-weight: 500;
+    margin-bottom: 35px;
+}
+.contents{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 75px;
+    background-color: #eee9e268;
+    row-gap: 85px;
+}
+.card{
+    width: 350px;
+    overflow: hidden;
+}
+.card img{
+    width: 100%;
+    height: auto;
+}
+.img{
+    padding: 30px;
+    background-color: #eee9e2;
+}
+.card :nth-child(2){
+    font-family: Montserrat;
+    font-weight: bolder;
+
+}
+.card :nth-child(3){
+    font-family: Open Sans;
+    font-weight: 600;
+}
+.card :nth-child(3) a{
+    color: black;
+}
+.card :nth-child(3) a:hover{
+    text-decoration: none;
+}
+.team{
+    letter-spacing: 2px;
+    font-family: Poppins;
+    font-size: 42px;
+    font-weight: 500;
+    margin: 35px 0 ;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.778);
+}
+.abt-cst{
+    font-family: Open Sans;
+    text-align: center;
+    font-weight: 900;
+}
+.abt-cst a{
+    color: black;
+}
+.abt-cst a:hover {
+    text-decoration: none;
+}
